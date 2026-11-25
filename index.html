@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nielsen Byggetilladelse</title>
+<meta name="description" content="Nielsen klarer tegninger og byggetilladelse til carport, tilbygning, anneks og hus. Fast pris, fast kontaktperson.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--ink:#16202a;--mut:#5b6773;--acc:#1f6f5c;--acc2:#e8f3ef;--line:#e3e8ec;--card:#f7f9fa}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11171c;--ink:#eef2f4;--mut:#a3b0ba;--acc:#4fb596;--acc2:#18302a;--line:#26323b;--card:#182128}}
+:root[data-theme="dark"]{--bg:#11171c;--ink:#eef2f4;--mut:#a3b0ba;--acc:#4fb596;--acc2:#18302a;--line:#26323b;--card:#182128}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.55}
+a{color:inherit}.w{max-width:1120px;margin:auto;padding:0 16px}
+header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:9}
+header .w{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-weight:800;font-size:20px}.logo span{color:var(--acc)}
+nav a{margin-left:20px;text-decoration:none;color:var(--mut);font-size:15px}
+.btn{display:inline-block;background:var(--acc);color:#fff;padding:14px 26px;border-radius:10px;text-decoration:none;font-weight:600;border:0;font-size:16px;cursor:pointer}
+.btn.o{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;padding:64px 0}
+h1{font-size:clamp(32px,5vw,52px);line-height:1.1;margin:0 0 18px}h2{font-size:clamp(26px,3.5vw,36px);margin:0 0 12px}
+.lead{font-size:19px;color:var(--mut)}.hero img{width:100%;border-radius:18px;aspect-ratio:4/3;object-fit:cover}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;background:var(--acc2);border-radius:16px;padding:24px;text-align:center}
+.stats b{display:block;font-size:26px;color:var(--acc)}
+section{padding:72px 0}.sub{color:var(--mut);max-width:640px;margin-bottom:36px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.card.hot{border:2px solid var(--acc)}.price{font-size:34px;font-weight:800}.price small{font-size:15px;color:var(--mut);font-weight:400}
+.card ul{padding-left:18px;color:var(--mut)}
+.types{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.type{border-radius:16px;overflow:hidden;background:var(--card);border:1px solid var(--line)}
+.type img{width:100%;height:190px;object-fit:cover;display:block}.type div{padding:18px}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{padding:22px;border-left:3px solid var(--acc);background:var(--card);border-radius:0 12px 12px 0}
+.step:before{counter-increment:s;content:counter(s);font-weight:800;color:var(--acc);font-size:28px;display:block}
+.calc{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+select,input,textarea{width:100%;padding:13px;border:1px solid var(--line);border-radius:10px;font:inherit;background:var(--bg);color:var(--ink);margin-bottom:12px}
+.res{font-size:42px;font-weight:800;color:var(--acc)}
+details{border-bottom:1px solid var(--line);padding:18px 0}summary{font-weight:600;cursor:pointer}
+.about{display:grid;grid-template-columns:1fr 1.3fr;gap:40px;align-items:center}.about img{width:100%;border-radius:18px;aspect-ratio:1;object-fit:cover}
+footer{background:var(--card);border-top:1px solid var(--line);padding:36px 0;color:var(--mut);font-size:14px}
+@media(max-width:820px){.hero,.calc,.about{grid-template-columns:1fr}.grid,.types,.steps{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}nav a:not(.btn){display:none}section{padding:48px 0}}
+</style>
+</head>
+<body>
+<header><div class="w"><div class="logo">Nielsen<span>.</span> Byggetilladelse</div>
+<nav><a href="#priser">Priser</a><a href="#proces">Sådan foregår det</a><a href="#faq">Spørgsmål</a><a class="btn" href="#kontakt" style="padding:10px 18px;color:#fff">Gratis vurdering</a></nav></div></header>
+
+<div class="w hero">
+<div><h1>Byggetilladelse uden bøvl. Til fast pris.</h1>
+<p class="lead">Vi tegner, søger og følger sagen hele vejen gennem kommunen. Du får én fast kontaktperson og svar inden for 24 timer.</p>
+<p><a class="btn" href="#kontakt">Få gratis vurdering</a> &nbsp; <a class="btn o" href="#beregn">Beregn din pris</a></p>
+<p style="color:var(--mut);font-size:14px">Start bare med en skitse eller et foto fra din telefon.</p></div>
+<img src="img/1600585154340-be6161a56a0c.jpg" alt="Moderne hus med tilbygning">
+</div>
+
+<div class="w"><div class="stats">
+<div><b>5 dage</b>Tegninger klar</div><div><b>Fast pris</b>Ingen overraskelser</div><div><b>2 rettelser</b>Med i alle pakker</div><div><b>Hele DK</b>Alle 98 kommuner</div>
+</div></div>
+
+<section id="priser"><div class="w">
+<h2>Vælg din pakke</h2><p class="sub">Alle priser er inkl. moms. Kommunens eget gebyr betales direkte til kommunen.</p>
+<div class="grid">
+<div class="card"><h3>Kun tegninger</h3><div class="price">3.995 <small>kr.</small></div><ul><li>Plan, facade og situationsplan</li><li>Klar til at du selv søger</li><li>2 rettelsesrunder</li></ul><a class="btn o" href="#kontakt">Vælg</a></div>
+<div class="card hot"><h3>Byggetilladelse</h3><div class="price">7.995 <small>kr.</small></div><ul><li>Alle tegninger</li><li>Screening af lokalplan og servitutter</li><li>Vi søger i Byg og Miljø for dig</li><li>Vi svarer kommunen</li></ul><a class="btn" href="#kontakt">Vælg</a></div>
+<div class="card"><h3>Alt inklusive</h3><div class="price">10.995 <small>kr.</small></div><ul><li>Alt fra Byggetilladelse</li><li>Færdigmelding og ibrugtagning</li><li>Lovliggørelse af eksisterende byggeri</li></ul><a class="btn o" href="#kontakt">Vælg</a></div>
+</div></div></section>
+
+<section style="background:var(--card)"><div class="w">
+<h2>Det hjælper vi med</h2><p class="sub">Små og store projekter. Vi kender reglerne for hvert byggeri.</p>
+<div class="types">
+<div class="type"><img src="img/1564013799919-ab600027ffc6.jpg" alt="Tilbygning"><div><b>Tilbygning</b><br><span style="color:var(--mut)">Mere plads til familien</span></div></div>
+<div class="type"><img src="img/1600596542815-ffad4c1539a9.jpg" alt="Carport og garage"><div><b>Carport og garage</b><br><span style="color:var(--mut)">Også over 50 m²</span></div></div>
+<div class="type"><img src="img/1512917774080-9991f1c4c750.jpg" alt="Nyt hus"><div><b>Anneks og nyt hus</b><br><span style="color:var(--mut)">Fra idé til godkendelse</span></div></div>
+</div></div></section>
+
+<section id="proces"><div class="w">
+<h2>Sådan foregår det</h2><p class="sub">Seks enkle trin. Du skal kun godkende tegningerne.</p>
+<div class="steps">
+<div class="step"><b>Gratis screening</b><br>Vi tjekker lokalplan og servitutter.</div>
+<div class="step"><b>Fast tilbud</b><br>Du får prisen, før vi går i gang.</div>
+<div class="step"><b>Tegninger</b><br>Første udkast inden for 5 arbejdsdage.</div>
+<div class="step"><b>Dine rettelser</b><br>To rettelsesrunder er med.</div>
+<div class="step"><b>Vi søger</b><br>Ansøgningen sendes i Byg og Miljø med din fuldmagt.</div>
+<div class="step"><b>Godkendt</b><br>Vi svarer kommunen og klarer færdigmeldingen.</div>
+</div></div></section>
+
+<section id="beregn" style="background:var(--acc2)"><div class="w calc">
+<div><h2>Beregn din pris</h2><p class="sub">Vælg dit projekt og din pakke. Du får prisen med det samme.</p>
+<select id="p"><option value="0">Carport, skur eller garage</option><option value="2000">Tilbygning</option><option value="3000">Anneks eller sommerhus</option><option value="6000">Nyt hus</option></select>
+<select id="k"><option value="3995">Kun tegninger</option><option value="7995" selected>Byggetilladelse</option><option value="10995">Alt inklusive</option></select></div>
+<div style="text-align:center"><div style="color:var(--mut)">Din pris fra</div><div class="res" id="r">7.995 kr.</div><a class="btn" href="#kontakt">Book gratis vurdering</a></div>
+</div></section>
+
+<section><div class="w about">
+<img src="img/1503387762-592deb58ef4e.jpg" alt="Tegninger på bordet">
+<div><h2>Hos Nielsen er du ikke et sagsnummer</h2><p class="lead">Du taler med den samme person fra første opkald til færdigmelding. Vi kender kommunernes krav og ved, hvad der skal til, for at sagen går igennem første gang.</p></div>
+</div></section>
+
+<section id="faq" style="background:var(--card)"><div class="w">
+<h2>Spørgsmål og svar</h2>
+<details><summary>Kræver mit projekt byggetilladelse?</summary><p>Det afhænger af størrelse, placering og lokalplan. Vi tjekker det gratis for dig.</p></details>
+<details><summary>Hvor lang tid tager det?</summary><p>Tegningerne er klar på cirka 5 arbejdsdage. Kommunens sagsbehandling varierer fra kommune til kommune.</p></details>
+<details><summary>Hvad koster kommunens gebyr?</summary><p>Gebyret fastsættes af din kommune og betales direkte til dem. Vi fortæller dig beløbet på forhånd.</p></details>
+<details><summary>Hvad hvis jeg skal søge dispensation?</summary><p>Så skriver vi ansøgningen om dispensation og argumenterer for dit projekt.</p></details>
+<details><summary>Kan I bruge husets gamle tegninger?</summary><p>Ja. Vi henter dem fra kommunens arkiv, når det er muligt.</p></details>
+<details><summary>Hvad hvis jeg allerede har bygget?</summary><p>Så hjælper vi med at lovliggøre byggeriet.</p></details>
+</div></section>
+
+<section id="kontakt"><div class="w calc">
+<div><h2>Få en gratis vurdering</h2><p class="sub">Fortæl kort om dit projekt. Vi vender tilbage inden for 24 timer.</p></div>
+<form action="mailto:kontakt@nielsen.dk" method="post" enctype="text/plain">
+<input name="navn" placeholder="Navn" required><input name="telefon" placeholder="Telefon"><input name="adresse" placeholder="Adresse på ejendommen">
+<textarea name="projekt" rows="4" placeholder="Hvad vil du bygge?"></textarea>
+<button class="btn" type="submit">Send forespørgsel</button></form>
+</div></section>
+
+<footer><div class="w">Nielsen Byggetilladelse · nielsen.dk · kontakt@nielsen.dk · CVR: [indsættes]</div></footer>
+<script>
+const f=n=>n.toLocaleString('da-DK')+' kr.',p=document.getElementById('p'),k=document.getElementById('k'),r=document.getElementById('r');
+function u(){const b=+k.value,x=+p.value;r.textContent=f(b+(b===3995?Math.round(x/2):x))}p.onchange=k.onchange=u;u();
+</script>
+</body></html>
